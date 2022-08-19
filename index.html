@@ -4,7 +4,7 @@
   <title>Brain Breakfast</title>
   <link rel="icon" type="image/png" sizes="32x32" href="https://docs.google.com/drawings/d/e/2PACX-1vTWa6or5o7Qvk6f422AG3FtI9ZUSxAZOep3oxLX3-0-fOyWf_3cl7vCDep1AkH5viBeuIWT8GdtpoyF/pub?w=32&h=32">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sora">
 </head>
 <body>
 <style>
@@ -19,7 +19,6 @@ p {text-align: center;}
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -45,8 +44,25 @@ p {text-align: center;}
 
 div {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
+}
+
+body {
+    background: linear-gradient(-45deg, #4287f5, #2866c9, #2153a3, #1a3b70);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 </style>
@@ -56,9 +72,8 @@ div {
 <div class="topnav">
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQyHX6IKnOTVsRtSdV7xuWfFhIL5zzyvSg8u1rMpcdcTQRruHbXnhxFJ1G0Zgm-Y0Cmg0m6JNsMwaIF/pub?w=576&h=432" alt="Brain Breakfast Logo" style="width:225px;height:150px;"></a>
 </div>
-<body style="background-color:#f2f2f2">
 
-<div style="font-family:trebuchet ms;">
+<div style="font-family:Sora; color:white;">
   <img src="https://www.freeiconspng.com/uploads/check-mark-blue-clip-art-icon-13.png" alt="Blue Checkmark" class="center" style="width:225px;height:150px;"></a>
   <h1>Success!</h1>
   <p>You have successfully signed up for the Brain Breakfast daily morning!</p>
